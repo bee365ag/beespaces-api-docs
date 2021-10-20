@@ -1,9 +1,13 @@
-Template for the Read the Docs tutorial
-=======================================
+beespaces-api-docs
+==================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+|docs|
 
-Read the tutorial here:
+Documentation of the beeSpaces API including some examples
+and reference code.
 
-https://docs.readthedocs.io/en/stable/tutorial/
+
+.. |docs| image:: https://readthedocs.org/projects/beespaces-api-docs/badge/?version=latest&style=plastic
+    :alt: Documentation Status
+    :scale: 100%
+    :target: https://beespaces-api-docs.readthedocs.io
