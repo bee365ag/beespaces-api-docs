@@ -15,15 +15,15 @@ the API consumer.
     :alt: beeSpaces setup
     :scale: 60%
 
-The above pictures roughly illustrates a beeSpaces setup. The default usage (without API) is controlled
+The above pictures roughly illustrates a *beeSpaces* setup. The default usage (without API) is controlled
 by the :term:`Wizard` installed on the target environment. The :term:`Wizard` processes the ``Workspace Templates``
 list and asks a user for additional arguments to a selected template. Once all information is available, the wizard
 does some checks and computations (according to its individual configuration), stores the order in the
 ``Workspaces`` list (aka. order list) and triggers the provisioning on the *bee365 ag* service environment.
 
 The provisioning itself can consist of multiple phases (pre-, post- and mainprovisioning) where the
-first two phases are executed in the target environment. Please take a look to the :doc:`/advanced` page
-for more information about pre- and postprovisioning.
+pre- and postprovisioning phases are executed in the target environment. Please take a look to the :doc:`/advanced`
+page for more information about this topic.
 
 The main provisioning step is executed by an engine that is specialized for certain environment types and setups.
 Some of these engines, mainly such that setup a SharePoint environment, do required additional resources stored

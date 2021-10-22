@@ -5,7 +5,7 @@ Basic Usage
 
 The usage of the *beeSpaces-API* is pretty straightforward, it's a single ``HTTP-POST``. The data that needs to
 be included in this request however is heavily dependent on the actual setup and the requirements of the target
-environment. Therefore it's not a bad idea to have a rough overview of the :doc:`/architecture` in the mind to
+environment. Therefore it's not a bad idea to have a rough overview of the :doc:`/architecture` in mind to
 gather the required information fast and to understand certain constraints.
 
 Placing an Order
@@ -16,7 +16,7 @@ The requests are protected by an API key sent with the HTTP header.
 
 .. note::
 
-    Please contact your **beeSpaces** distributor for getting the connection and authentication information.
+    Please contact your *beeSpaces* supplier for getting the connection and authentication information.
 
 .. code-block:: sh
 
@@ -131,7 +131,7 @@ The ``POST`` body could look like the following:
 .. warning::
     To avoid naming issues, the API uses the ``Field``-Name of the columns. The two values look pretty similar but
     there's a difference if using special chars or multiple languages. Further, the display name can be changed
-    later, whereas the field is fixed once created.
+    later, whereas the field name is fixed once created.
 
     As an example, a new column called ``'Start Year'`` has the ``Field``-Name ``'Start_x0020_Year'``. If renamed later
     to ``'Start Fiscal Year'`` the field stays ``'Start_x0020_Year'``.
@@ -166,7 +166,7 @@ several minutes until completion. Therefore a ``202 Accepted`` is returned if th
 the API.
 
 .. warning::
-    The ``200 Accepted`` doesn't mean that the provisioning is completed or successful. There are a lot of
+    The ``200 Accepted`` doesn't mean that the provisioning is completed nor successful. There are a lot of
     interactions between multiple systems that could lead to errors.
 
 The ``202 Accepted`` response includes a tracking id and a polling URL to track the provisioning progress:

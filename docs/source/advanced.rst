@@ -17,7 +17,7 @@ Postprovisioning routines however, can be interesting as these are called if the
 properly. In this step one could, for example, send some notifications or write back certain identifiers.
 
 .. note::
-    Currently only Azure Runbooks are supported, please contact your *beeSpaces* provider for detailed
+    Currently only Azure Runbooks are supported, please contact your *beeSpaces* supplier for detailed
     setup instructions.
 
 If such a routine is available it needs to be included in the main requests body withing the settings section:
